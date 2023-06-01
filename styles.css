@@ -1,0 +1,104 @@
+/* Set default styles for body, headings, and form elements */
+body {
+  background-color: #F2F2F2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid #333;
+  font-size: 20px;
+  margin-right: 12px;
+  padding: 8px 12px;
+  width: 70%;
+}
+
+button[type="button"] {
+  background-color: #333;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+  width: 30%;
+}
+
+button[type="button"]:hover {
+  background-color: #555;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  align-items: center;
+  background-color: #FFF;
+  border-bottom: 1px solid #EEE;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding: 12px;
+}
+
+li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+li .task {
+  font-size: 20px;
+}
+
+li button {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 12px;
+  transition: color 0.3s ease;
+}
+
+li button:hover {
+  color: #555;
+}
+
+li .edit {
+  background-color: transparent;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 12px;
+  transition: color 0.3s ease;
+}
+
+li .edit:hover {
+  color: #555;
+}
+
+.done {
+text-decoration: line-through;
+}
