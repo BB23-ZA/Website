@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bryan Bowler - Amateur Developer</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Bryan Bowler - Amateur Developer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <h1>Bryan Bowler</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <h2>Amateur Developer</h2>
+        <p>Welcome to my website!</p>
+        <a href="#about" class="btn">Learn more</a>
+      </section>
+      <section id="about">
+        <h2>About me</h2>
+        <p>Hi, <br>
+        <br>
+        My name is Bryan Bowler and I am an amateur and hobbyist full stack developer based in Cape Town, South Africa. I am still learning a lot everyday and I have a passion for continuous learning. I am always looking for new challenges and opportunities to learn and grow. Currently I have experience with Linux, Python, SQL, PHP, implementing, maintaining and administering an open source project (Moodle) on local and AWS servers. I am most interested in the fields of Automation, DevOps and Cyber Security.</p>
+      </section>
+      <section id="portfolio">
+        <h2>My Portfolio</h2>
+        <p>Have a look at some of my projects below:</p>
+        <div class="portfolio-items">
+          <div class="portfolio-item">
+		  <img src="img/project-1.png" alt="Project 1">
+            <h3>To-Do List</h3>
+            <p>A simple to do list to get things done, with basic CRUD functionality!</p>
+            <a href="project-1/index.html" class="btn">View project</a>
+          </div>
+          <div class="portfolio-item">
+		  <img src="img/project-2.png" alt="Project 2">
+            <h3>Weather App</h3>
+            <p>A weather app that makes use of the OpenWeather API.</p>
+            <a href="project-2/index.html" class="btn">View project</a>
+          </div>
+          <div class="portfolio-item">
+		  <img src="img/project-3.png" alt="Project 3">
+            <h3>Recipe App</h3>
+            <p>What's for dinner? Makes use of the Edamam Recipe API.</p>
+            <a href="project-3/index.html" class="btn">View project</a>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact me</h2>
+<p>Feel free to contact me using the form below:</p>
+		<form action="contact.php" method="POST">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" required>
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" required>
+		<label for="message">Message:</label>
+		<textarea id="message" name="message" required></textarea>
+		<button type="submit" name="submit" class="btn">Email me</button>
+		</form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Bryan Bowler. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
